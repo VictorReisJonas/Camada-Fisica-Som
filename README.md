@@ -4,7 +4,7 @@ Projeto desenvolvido para a disciplina de Redes de Computadores da UTFPR junto a
 
 ## Objetivo
 
-Transmitir bits de dados (0 e 1) por meio de batidas sonoras
+Transmitir bits de dados (0 e 1) por meio de batidas sonoras com confiabilidade e de maneira interoperável  
 
 ## Tecnologias
 
@@ -18,13 +18,13 @@ Transmitir bits de dados (0 e 1) por meio de batidas sonoras
 Descrição do método de batidas.
 
 Bit 0:
-1 batida
+1 batida no mesmo intervalo de verificação
 
 Bit 1:
-2 batidas
+2 batidasno mesmo intervalo de verificação
 
 Bit Nulo:
-3 ou mais batidas
+3 ou mais batidas no mesmo intervalo de verificação
 
 ## Configuração
 
@@ -45,7 +45,7 @@ Vi que o sistema contava com muitas batidas simuntaneas (cerca de 20) ao em vez 
 
 Adicionar as configurações de como o sistema interpretaria também foi um desafio fiquei dando voltas e voltas tentando fazer o sistema reconhecer o meu "microfone" até achar que a opção de Microfone Interno tava ativado e não o meu OBS:( fiquei quase 30 minutos só tentando ver como fazia o sistema reconhecer o meu microfone pra descobrir que era só isso)
 
-## Como executar
+## Como executar adad
 
 Instalar dependências:
 
@@ -55,9 +55,13 @@ Executar:
 
 python src/main.py
 
-## Vídeo de demonstração
+## Declaração do Uso de Inteligência Artificial
 
-https://www.veed.io/view/c7a3b953-8a3c-4098-877a-4f1b6f5f3e6d?panel=share
+Como dito pelo professor o uso da IA seria essencial para a realização do projeto, dito isso fui analisando cada tópico solicitado pelo o mesmo e inserindo no chat para ele me dizer como deveria ser implementado da melhor forma o programa.Foi se utilizado a IA Chat GPT para contemplar todos os requisitos solicitados pelo professor, ele me instruiu de como dissertar sobre o PDF de requerimentos e de como fazer cada implementação, suas modificações e alterações de como a estrutura deveria se "mover" foram todas de autoria minha mas a estrutura central foi toda feita com a ajuda da IA
+
+## Declarações finais
+
+Estou enviando o trabalho incompleto pela falta de tempo pois estou a fazer sozinho sem o "microfone" solicitado, enviei 2 email para o professor pedindo para prorrogar a entrega, se você ja prorrogou ignore este Git Hub por agora que haverá muitas mudanças sobre tanto o Método 1(incompleto e incompativél com a descrição apresentada) e o Método 2(Ainda em desenvolvimento)
 
 ## Licença
 
