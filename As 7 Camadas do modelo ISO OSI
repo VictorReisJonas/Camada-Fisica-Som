@@ -1,0 +1,43 @@
+============================================================================================================================================================================================
+Primeira Camada -> Fisica
+É a primeira camada onde passa o sinal fisico vindo tanto de radio, microondas
+ou eletromágneticas para dentro do sistema como cabos par trançados ou Wifi
+
+============================================================================================================================================================================================
+
+Segunda Camada -> Enlace
+Garante a transferencia correta e confiavel de dados entre dois
+dispositivos conectados a mesma rede, ela organiza dados em frames, trabalha com 
+o endereço mac e deleta erros de transmissão 
+
+============================================================================================================================================================================================
+
+Terceira Camada -> Rede
+Ela que faz o endereçamento e roteamento dos dados escolhendo a melhor rota para os dados
+trabalhando com protocolos como IP e ICMP
+
+============================================================================================================================================================================================
+
+Quarta Camada -> Transporte 
+Ela quem controla os dados de origem e destino, suas segmentações, controle de erros e fluxo
+ultilizando protocolos como UDP uma conexão sem confirmamento de chegada correta das informações porém rapido
+e TCP uma conexão confiavel e que garante a entrega de dados 
+
+============================================================================================================================================================================================
+
+Quinta Camada -> Sessão
+Controla o início, manutenção e encerramento das sessões de comunicação
+por meio de gerenciamento de diálogo, autenticação e pontos de sincronização
+Ela também gerencia uma conexão ativa por dois dispositivos 
+
+============================================================================================================================================================================================
+
+Sexta Camada -> Apresentação
+Ela é responsavél pela qual forma os dados são apresentados como a compressão de dados, criptografados ou formal
+
+============================================================================================================================================================================================
+
+Setíma Camada -> Aplicação
+Ela é a camada mais próxima ao usuario sendo responsavél por rodar HTTP SMTP e DNS, ela que permite aos sites usarem a rede
+
+============================================================================================================================================================================================
